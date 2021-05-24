@@ -15,6 +15,7 @@ altcoin (symbol). The app uses the CoinMarketCap [API](https://coinmarketcap.com
 - - (within terminal, root directory `cp .env_template .env`
 - Within `.env` set `COIN_MARKET_CAP_API_KEY` equal to the private key in step 2 above
 - Within `.env` set `SYMBOLS` equal to the coin symbols e.g. `BTC,ETH,HAPPY` (comma separated with no space)
+- (within terminal, root directory) `node index.js`
 
 ### Contribution
 
