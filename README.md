@@ -9,11 +9,10 @@ altcoin (symbol). The app uses the CoinMarketCap [API](https://coinmarketcap.com
 
 ### Setup Instructions
 
-- Clone the project `git clone`
-- Within the root directory run (within terminal) `npm i`
+- (Within terminal) Clone the project `git clone git@github.com:Jay-Plumb/crypto.git`
+- (within terminal, root directory) `npm i`
 - Create a private API key by [signing up](https://pro.coinmarketcap.com/signup/)
-- Within the root directory run the following command (within terminal):
-  `cp .env_template .env`
+- - (within terminal, root directory `cp .env_template .env`
 - Within `.env` set `COIN_MARKET_CAP_API_KEY` equal to the private key in step 2 above
 - Within `.env` set `SYMBOLS` equal to the coin symbols e.g. `BTC,ETH,HAPPY` (comma separated with no space)
 
