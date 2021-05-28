@@ -4,7 +4,7 @@ name: CI
 
 # Controls when the action will run. 
 on:
-  # Triggers the workflow on push request events but only for the main branch
+  # Triggers the workflow on a push request event but only for the main branch
   push:
     branches: [ main ]
 
