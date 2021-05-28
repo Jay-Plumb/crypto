@@ -16,8 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: dev
+    - name: open PR
       uses: repo-sync/pull-request@v2
       with:
-        destination_branch: "main"
+        destination_branch: "dev"
         github_token: ${{ secrets.GITHUB_TOKEN }}
